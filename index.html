@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS LINK-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Taskinator</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div>
+        <h1>Taskinator</h1>
+        <h6>Click the button below to add a new task!</h6>
+
+        <!-- Task form submission -->
+        <form id="task-form">
+          <label for="task-name">Task Name:</label>
+          <input type="text" id="task-name" name="task-name" />
+
+          <button type="submit">Add Task</button>
+        </form>
+        <!-- /End form submission -->
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- Section Title-->
+      <div>
+        <h2>Tasks To Do</h2>
+      </div>
+
+      <!-- Tasks-->
+      <div class="task-container">
+        <!-- THIS DIV HOLD TASKS-->
+        <div>
+          <ul id="task-list"></ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div>
+        <h3>Tardemarked by Taskinator 2020</h3>
+      </div>
+    </footer>
+
+    <!-- JAVA -->
+    <script src="./java.js"></script>
+  </body>
+</html>
