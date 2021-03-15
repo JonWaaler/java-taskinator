@@ -26,12 +26,23 @@ var CreateTask = function (m_taskName) {
   // create list element
   var listElement = document.createElement("LI");
 
+  // Create div to hold LI content
+  var listContent = document.createElement("DIV");
+
   // Create List Header
   var listHeader = document.createElement("H4");
   listHeader.textContent = m_taskName;
 
+  var buttonDelete = document.createElement("BUTTON");
+  var buttonFinished = document.createElement("BUTTON");
+  buttonDelete.textContent = "Delete";
+  buttonFinished.textContent = "Finished";
+
   // Move header into list
-  listElement.appendChild(listHeader);
+  listElement.appendChild(listContent);
+  listContent.appendChild(listHeader);
+  listContent.appendChild(buttonFinished);
+  listContent.appendChild(buttonDelete);
 
   // append <LI> into the <UL>
   document.getElementById("task-list").appendChild(listElement);

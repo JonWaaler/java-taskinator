@@ -56,28 +56,53 @@ main {
   background-color: rgb(231, 231, 231);
   padding: 20px;
 }
+
 main div h2 {
   color: rgb(7, 70, 75);
 }
+
 .task-container {
-  background-color: rgb(204, 204, 204);
+  min-height: 540px;
 }
-.task-container div {
-  padding: 10px;
+
+.task-container {
+  padding: 0px;
   border: solid 3px grey;
+  background-color: rgb(204, 204, 204);
   border-radius: 10px;
 }
+
 ul {
   list-style-type: none;
 }
 
-.task-container div h4 {
+.task-container div {
   background-color: rgb(205, 255, 250);
   border: solid 1px rgb(0, 0, 0);
   border-radius: 10px;
-  margin: 3px;
+  margin: 10px;
   padding: 7px;
   font-weight: normal;
+}
+
+.task-container div button {
+  padding: 4px 12px;
+  margin: 5px 8px;
+  border: 0;
+  border-radius: 5px;
+  border-bottom: rgb(97, 97, 97) 3px solid;
+  background-color: rgb(7, 70, 75);
+  color: whitesmoke;
+  font-size: 0.85rem;
+}
+
+.task-container div button:hover {
+  background-color: rgb(6, 108, 116);
+  transition: 0.3s;
+}
+
+.task-container div h4 {
+  font-size: 1.5rem;
 }
 
 footer {
