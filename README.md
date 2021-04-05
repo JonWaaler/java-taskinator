@@ -24,7 +24,7 @@ https://jonwaaler.github.io/java-taskinator/
 
 ## Web Preview
 
-![Alt text](NOT AVBAILABLE, IN PROGRESS)
+![Alt text](https://i.imgur.com/B3FdDsP.png)
 
 ## Contribution
 
